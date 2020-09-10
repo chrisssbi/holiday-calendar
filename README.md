@@ -5,7 +5,7 @@ You have the option to select any year below by typing in the year, using four d
 
 ## What I used
 - HTML5
-- Less (+ FlexCSS, RWD)
+- Less (+ Flexbox CSS, RWD)
 - JavaScript
 - AJAX
 - REST API: https://www.kayaposoft.com/enrico/
