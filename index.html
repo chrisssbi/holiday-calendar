@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet/less" type="text/css" href="reset.css" />
+  <link rel="stylesheet/less" type="text/css" href="styles.less" />
+  <script src="less.min.js" ></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700&display=swap" rel="stylesheet">
+
+  <title>website API</title>
+</head>
+
+<body>
+  <header>
+    <h1>Holidays in Ukraine</h1>
+  </header>
+  <main>
+    <form onsubmit="return false" id="searchf">
+      <input type="number" id="year" placeholder="Enter year" />
+      <button type="submit" form="searchf" id="search-btn">Open calendar</button>
+    </form>
+    <h2></h2>
+    <div class="calendar">
+
+    </div>
+  </main>
+  <footer>
+    (c)  all rights reserved. Chris B
+  </footer>
+  <script src="cal.js"></script>
+</body>
+</html>
